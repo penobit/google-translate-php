@@ -1,13 +1,13 @@
 {
-    "name": "stichoza/google-translate-php",
+    "name": "penobit/google-translate-php",
     "description": "Free Google Translate API PHP Package",
     "keywords": ["google", "translate", "translator", "php"],
     "license": "MIT",
-    "homepage": "http://github.com/Stichoza/google-translate-php",
+    "homepage": "http://github.com/Penobit/google-translate-php",
     "authors": [
         {
-            "name": "Levan Velijanashvili",
-            "email": "me@stichoza.com"
+            "name": "Penobit",
+            "email": "info@penobit.com"
         }
     ],
     "require": {
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Stichoza\\GoogleTranslate\\": "src/"
+            "Penobit\\GoogleTranslate\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Stichoza\\GoogleTranslate\\Tests\\": "tests/"
+            "Penobit\\GoogleTranslate\\Tests\\": "tests/"
         }
     }
 }
