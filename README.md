@@ -28,7 +28,7 @@ Install this package via [Composer](https://getcomposer.org/).
 composer require penobit/google-translate-php
 ```
 
-> Note: **PHP 7.1 or later** is required. For older versoins, use `^3.2` version of this package (see [old docs](https://github.com/Penobit/google-translate-php/tree/3.2#google-translate-php)).
+> Note: **PHP 7.1 or later** is required.
 
 ## Basic Usage
 
@@ -174,7 +174,7 @@ In addition, `translate()` and `trans()` methods will return `null` if there is 
  - `413 Request Entity Too Large` response:
    This error means that your input string is too long. Google only allows a maximum of 5000 characters to be translated at once. If you want to translate a longer text, you can split it to shorter parts, and translate them one-by-one.
  - `403 Forbidden` response:
-   This is not an issue with this package. Google Translate itself has some problems when it comes to translating some characters and HTML entities. See https://github.com/Penobit/google-translate-php/issues/119#issuecomment-558078133
+   This is not an issue with this package. Google Translate itself has some problems when it comes to translating some characters and HTML entities.
 
  
 ## Disclaimer
