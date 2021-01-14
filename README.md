@@ -1,8 +1,10 @@
 Google Translate PHP
 ====================
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php) [![Total Downloads](https://img.shields.io/packagist/dt/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php) 
-Free Google Translate API PHP Package. Translates totally free of charge.
+[![Latest Stable Version](https://img.shields.io/packagist/v/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php) 
+
+## Free Google Translate API PHP Package. Translates totally free of charge.
 
 ---
 
@@ -179,11 +181,3 @@ In addition, `translate()` and `trans()` methods will return `null` if there is 
 ## Disclaimer
 
 This package is developed for educational purposes only. Do not depend on this package as it may break anytime as it is based on crawling the Google Translate website. Consider buying [Official Google Translate API](https://cloud.google.com/translate/) for other types of usage.
-
-## Donation
-
-If this package helped you reduce your time to develop something, or it solved any major problems you had, feel free give me a cup of coffee :)
-
- - [Patreon](https://www.patreon.com/penobit)
- - [PayPal](https://paypal.me/penobit)
- 
