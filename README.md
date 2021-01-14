@@ -1,7 +1,7 @@
 Google Translate PHP
 ====================
 
-[![Build Status](https://travis-ci.org/Penobit/google-translate-php.svg?branch=master)](https://travis-ci.org/Penobit/google-translate-php) [![Latest Stable Version](https://img.shields.io/packagist/v/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php) [![Total Downloads](https://img.shields.io/packagist/dt/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php) [![Downloads Month]
+[![Latest Stable Version](https://img.shields.io/packagist/v/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php) [![Total Downloads](https://img.shields.io/packagist/dt/Penobit/google-translate-php.svg)](https://packagist.org/packages/penobit/google-translate-php) 
 Free Google Translate API PHP Package. Translates totally free of charge.
 
 ---
