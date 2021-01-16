@@ -19,6 +19,7 @@ Google Translate PHP
    - [Errors and Exception Handling](#errors-and-exception-handling)
  - [Known Limitations](#known-limitations)
  - [Disclaimer](#disclaimer)
+ - [Donation](#donation)
 
 ## Installation
 
