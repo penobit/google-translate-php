@@ -335,4 +335,18 @@ class GoogleTranslate
     {
         return (bool) preg_match('/^([a-z]{2})(-[A-Z]{2})?$/', $lang);
     }
+
+    public function getLanguages($assoc = false) {
+        $file = __DIR__.'/languages.json';
+        $contents = file_get_contents($file);
+        $languages = json_decode($contents, $assoc);
+
+        return $languages;
+    }
+
+    public function getLanguage(string $lang) {
+        $languages = $this->getLanguages(true);
+
+        return $languages[$lang] ?? null;
+    }
 }
