@@ -4,7 +4,7 @@ namespace Penobit\GoogleTranslate\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class CustomPackageFacade extends Facade
+class GoogleTranslate extends Facade
 {
 
     /**
@@ -13,6 +13,6 @@ class CustomPackageFacade extends Facade
     * @return string
     */
     protected static function getFacadeAccessor() {
-        return 'penobit-google-translate';
+        return 'GoogleTranslate';
     }
 }
