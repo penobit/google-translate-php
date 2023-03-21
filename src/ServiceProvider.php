@@ -11,7 +11,6 @@ class ServiceProvider extends LaravelServiceProvider {
     */
     public function register() {
         $this->app->bind('GoogleTranslate', function($app) {
-            exit ('test');
             return new GoogleTranslate();
         });
     }
