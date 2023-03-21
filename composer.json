@@ -28,5 +28,15 @@
         "psr-4": {
             "Penobit\\GoogleTranslate\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Penobit\\GoogleTranslate\\ServiceProvider"
+            ],
+            "aliases": {
+                "GoogleTranslate": "Penobit\\GoogleTranslate\\Facades\\GoogleTranslate"
+            }
+        }
     }
 }
